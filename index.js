@@ -14,7 +14,7 @@ function watch (glob, cmd) {
       exec(cmd)
     })
 }
-
+//test
 function exec (cmd) {
   cp.exec(cmd, function (err, stdout, stderr) {
     err && console.error(err)
